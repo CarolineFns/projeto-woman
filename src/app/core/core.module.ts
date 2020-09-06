@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BlocoComponent } from './home/bloco/bloco.component';
+import { ImagemModule } from '../shared/imagem/imagem.module';
 
 @NgModule({
     declarations: [
@@ -16,7 +18,8 @@ import { BlocoComponent } from './home/bloco/bloco.component';
         BlocoComponent
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        ImagemModule
     ]
 })
 export class CoreModule {}
