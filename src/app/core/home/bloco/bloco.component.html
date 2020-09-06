@@ -1,5 +1,5 @@
-<section class="parte-2" *ngIf="imagemPrimeiro">
-    <div class="container">
+<section class="parte-2">
+    <div class="container" [ngClass]="{'imagemPrimeiroClass' : imagemPrimeiro}">
         <div class="parte-2-conteudo">
             <h2 class="titulo-conteudo">
                 {{ tituloBloco }}
@@ -13,25 +13,6 @@
                 [caminho]="caminhoImagem"
                 [descricao]="descricaoImagem">
             </hw-imagem>
-        </div>
-    </div>
-</section>
-
-<section class="parte-2" *ngIf="!imagemPrimeiro">
-    <div class="container">
-        <div class="bloco-imagem">
-            <hw-imagem 
-                [caminho]="caminhoImagem"
-                [descricao]="descricaoImagem">
-            </hw-imagem>
-        </div>
-        <div class="parte-2-conteudo">
-            <h2 class="titulo-conteudo">
-                {{ tituloBloco }}
-            </h2>
-            <p class="conteudo-parte-2">
-                {{ texto }}
-            </p>
         </div>
     </div>
 </section>
