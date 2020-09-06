@@ -1,0 +1,32 @@
+
+.parte-2 .container {
+    display: flex;
+    padding: 1em;
+}
+
+.parte-2-conteudo {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    font: normal normal 300 20px Now;
+    letter-spacing: 0px;
+    color: #300D5F;
+    opacity: 1;
+    margin-top: 2em;
+    margin-right: 4em;
+}
+
+.titulo-conteudo {
+    text-align: left;
+    font: normal normal bold 70px/60px Now;
+    letter-spacing: 0px;
+    color: #300D5F;
+    text-shadow: 0px 3px 0px #FC0DA1;
+    opacity: 1;
+}
+
+.img-conteudo {
+    width: 400px;
+    height: 350px;
+}

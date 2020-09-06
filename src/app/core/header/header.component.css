@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #180836;
+    border-bottom: 3px solid #E6006F;
+}
+
+.logo {
+    width: 45px;
+}
+
+.menu-end {
+   width: 100%; 
+   margin-right: 8%;
+}
+
+.item-menu {
+    margin-right: 5%;
+}
+
+.collapse.navbar-collapse a:hover {
+    border-bottom: 4px solid #E6006F;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-width: 4px;
+    border-bottom-width: 4px;
+}
+
+.login {
+   background-color: #E6006F; 
+   color: #FFF;
+   width: 75px;
+   border-radius: 37px;
+}
+
+
+/* header {
+    width: 1920px;
+    height: 124px;
+    background: #180836;
+}
+
+.caixa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid #E6006F;
+}
+
+.logo {
+    width: 40px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 628px;
+}
+
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #FFF; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: block;
+    text-align: left;
+    letter-spacing: 0px;
+    font: normal normal bold 20px/36px Now;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.menu-li {
+    padding-right: 25px;
+}
+
+.menu-li a:hover {
+    border-bottom: 6px solid #E6006F;
+    opacity: 1;
+}
+
+.login {
+    padding: 0px 13px 0px 13px;
+    background: #E6006F 0% 0% no-repeat padding-box;
+    border-radius: 37px;
+    opacity: 1;
+} */
