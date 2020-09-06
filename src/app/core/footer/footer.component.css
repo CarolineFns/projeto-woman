@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+.rodapePrincipal {
+    background: #26124D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-bottom: 1em;
+}
+
+h4 {
+    text-align: left;
+    font: normal normal bold 20px/70px Now;
+    letter-spacing: 0px;
+    color: #E6006F;
+    opacity: 1;
+}
+
+.item-footer {
+    text-align: left;
+    font: normal normal 300 18px/25px Now;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.botao-quero-ser {
+    text-align: center;
+    font: normal normal bold 6px/17px Now;
+    letter-spacing: 0px;
+    color: #E6006F;
+    opacity: 1;
+    border: 1px solid #E6006F;
+    border-radius: 37px;
+    width: 161px;
+    font-size: 15px;
+    padding: 2px;
+}

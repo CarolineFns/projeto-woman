@@ -8,6 +8,8 @@ export class ImagemComponent implements OnInit {
     
     @Input() descricao = '';
     @Input() caminho = '';
+    @Input() largura = 300;
+    @Input() altura = 300;
 
     ngOnInit(): void {
     }

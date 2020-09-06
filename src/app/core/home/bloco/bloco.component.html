@@ -1,17 +1,17 @@
-<section class="parte-2">
-    <div class="container" [ngClass]="{'imagemPrimeiroClass' : imagemPrimeiro}">
+<section class="parte-2" *ngFor="let bloco of arrayBlocos"> 
+    <div class="container" [ngClass]="{'imagemPrimeiroClass' : bloco.imagemPrimeiro}">
         <div class="parte-2-conteudo">
             <h2 class="titulo-conteudo">
-                {{ tituloBloco }}
+                {{ bloco.tituloBloco }}
             </h2>
             <p class="conteudo-parte-2">
-                {{ texto }}
+                {{ bloco.texto }}
             </p>
         </div>
         <div class="bloco-imagem">
             <hw-imagem 
-                [caminho]="caminhoImagem"
-                [descricao]="descricaoImagem">
+                [caminho]="bloco.caminhoImagem"
+                [descricao]="bloco.descricaoImagem">
             </hw-imagem>
         </div>
     </div>

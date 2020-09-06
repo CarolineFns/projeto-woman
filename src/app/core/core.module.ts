@@ -5,17 +5,23 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BlocoComponent } from './home/bloco/bloco.component';
 import { ImagemModule } from '../shared/imagem/imagem.module';
+import { ParceirasComponent } from './parceiras/parceiras-component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     declarations: [
         HeaderComponent,
         HomeComponent,
-        BlocoComponent
+        BlocoComponent,
+        ParceirasComponent,
+        FooterComponent
     ],
     exports: [
         HeaderComponent,
         HomeComponent,
-        BlocoComponent
+        BlocoComponent,
+        ParceirasComponent,
+        FooterComponent
     ],
     imports: [
         CommonModule,

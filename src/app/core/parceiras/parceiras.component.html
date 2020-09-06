@@ -1,0 +1,15 @@
+<div class="parceiras">
+    <h2>Empresas parceiras</h2>
+    <div class="bloco-empresas">
+        <ul class="empresas" *ngFor="let empresa of arrayEmpresas">
+            <li class="empresas-link">
+                <hw-imagem 
+                    [caminho]="empresa.caminhoImagem"
+                    [descricao]="empresa.descricaoImagem"
+                    [largura]=75
+                    [altura]=45>
+                </hw-imagem>
+            </li>
+        </ul>
+    </div>
+</div>
