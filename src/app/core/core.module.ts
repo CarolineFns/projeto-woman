@@ -7,6 +7,10 @@ import { BlocoComponent } from './home/bloco/bloco.component';
 import { ImagemModule } from '../shared/imagem/imagem.module';
 import { ParceirasComponent } from './parceiras/parceiras-component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
+import { SigninComponent } from './signin/signin.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { SignUpComponent } from './signup/signup.component';
 
 @NgModule({
     declarations: [
@@ -14,7 +18,9 @@ import { FooterComponent } from './footer/footer.component';
         HomeComponent,
         BlocoComponent,
         ParceirasComponent,
-        FooterComponent
+        FooterComponent,
+        SigninComponent,
+        SignUpComponent
     ],
     exports: [
         HeaderComponent,
@@ -25,7 +31,10 @@ import { FooterComponent } from './footer/footer.component';
     ],
     imports: [
         CommonModule,
-        ImagemModule
+        ImagemModule,
+        RouterModule,
+        ReactiveFormsModule,
+        FormsModule
     ]
 })
 export class CoreModule {}

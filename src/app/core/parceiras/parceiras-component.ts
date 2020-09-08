@@ -28,15 +28,15 @@ export class ParceirasComponent implements OnInit {
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
             },
             {     
-                "caminhoImagem": '../../../assets/img/parceiras/parceira-1.png',
+                "caminhoImagem": '../../../assets/img/parceiras/parceira-4.png',
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
             },
             {     
-                "caminhoImagem": '../../../assets/img/parceiras/parceira-2.png',
+                "caminhoImagem": '../../../assets/img/parceiras/parceira-5.png',
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
             },
             {     
-                "caminhoImagem": '../../../assets/img/parceiras/parceira-3.png',
+                "caminhoImagem": '../../../assets/img/parceiras/parceira-6.png',
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
             }
         ];

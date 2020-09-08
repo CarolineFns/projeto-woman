@@ -16,14 +16,9 @@ export class BlocoComponent implements OnInit {
     getBlocos() {
         return [
             { 
-                "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
-                'sed do eiusmod tempor incididunt ut labore et dolore'+
-                'magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'+
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat. '+
-                'Duis aute irure dolor in reprehenderit in voluptate velit '+ 
-                'esse cillum dolore eu fugiat nulla pariatur. Excepteur sint '+ 
-                'occaecat cupidatat non proident, sunt in culpa qui officia '+
-                'deserunt mollit anim id est laborum.',
+            "texto": "A Power Lady Foi criada para trazer mais igualdade para as mulheres."+
+                    "As empoderando dentro do mercado de trabalho, trazendo aulas com profissionais"+
+                     " para ansiedade, insegurança e o que estudar para a área que você deseja alcançar.",
         
                 "tituloBloco": 'Como Funciona?', 
         
@@ -34,16 +29,10 @@ export class BlocoComponent implements OnInit {
                 "imagemPrimeiro": false
             },
             { 
-                "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
-                'sed do eiusmod tempor incididunt ut labore et dolore'+
-                'magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'+
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat. '+
-                'Duis aute irure dolor in reprehenderit in voluptate velit '+ 
-                'esse cillum dolore eu fugiat nulla pariatur. Excepteur sint '+ 
-                'occaecat cupidatat non proident, sunt in culpa qui officia '+
-                'deserunt mollit anim id est laborum.',
-        
-                "tituloBloco": 'Lorem ipsum dolor?', 
+                "texto": "Não, o nosso intuito é trazer conteúdo gratuito para expandir o número "+
+                "de mulheres dentro da área de Tecnologia e criando uma Rede de apoio profissional.",
+
+                "tituloBloco": 'Eu tenho que pagar algo?', 
         
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
         
@@ -52,16 +41,11 @@ export class BlocoComponent implements OnInit {
                 "imagemPrimeiro": true
             },
             { 
-                "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
-                'sed do eiusmod tempor incididunt ut labore et dolore'+
-                'magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation'+
-                'ullamco laboris nisi ut aliquip ex ea commodo consequat. '+
-                'Duis aute irure dolor in reprehenderit in voluptate velit '+ 
-                'esse cillum dolore eu fugiat nulla pariatur. Excepteur sint '+ 
-                'occaecat cupidatat non proident, sunt in culpa qui officia '+
-                'deserunt mollit anim id est laborum.',
+                "texto": "Com o nosso recrutador, você será selecionada pela sua capacidade"+
+                " e não pelo seu gênero. Fazendo assim uma disputa mais justa sobre quem é mais"+
+                " capacitado para exercer tal função.",
         
-                "tituloBloco": 'Lorem ipsum dolor?', 
+                "tituloBloco": 'Vagas Reais', 
         
                 "descricaoImagem": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,',
         
