@@ -1,0 +1,15 @@
+.bloco-aulas {
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-bloco {
+    padding: 0.25em;
+    background: #D9C5F8 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 70px/84px Now;
+    letter-spacing: 0px;
+    color: #300D5F;
+    opacity: 1;
+    text-transform: uppercase;
+}

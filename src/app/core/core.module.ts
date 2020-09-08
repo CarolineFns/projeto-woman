@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
@@ -7,10 +9,9 @@ import { BlocoComponent } from './home/bloco/bloco.component';
 import { ImagemModule } from '../shared/imagem/imagem.module';
 import { ParceirasComponent } from './parceiras/parceiras-component';
 import { FooterComponent } from './footer/footer.component';
-import { RouterModule } from '@angular/router';
 import { SigninComponent } from './signin/signin.component';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { SignUpComponent } from './signup/signup.component';
+import { AulasModule } from './aulas/aulas.module';
 
 @NgModule({
     declarations: [
@@ -34,7 +35,8 @@ import { SignUpComponent } from './signup/signup.component';
         ImagemModule,
         RouterModule,
         ReactiveFormsModule,
-        FormsModule
+        FormsModule,
+        AulasModule
     ]
 })
 export class CoreModule {}
